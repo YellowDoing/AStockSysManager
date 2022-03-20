@@ -1,6 +1,6 @@
 #### 一款模拟资源管理器的桌面看股软件
 
-![](https://note.youdao.com/yws/api/personal/file/WEB11b7aa8700761caf6ec8cbc09adf14cf?method=download&shareKey=22fe9113d8696adc8a0efbbc05bc84ca)
+![](http://qiniu.hgteam.cn/ac.png)
 
 - 进程 (自定义的名称)
 - CPU (涨跌幅)
