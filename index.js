@@ -7,6 +7,9 @@ const createWindow = () => {
       // height: localStorage.getItem('heihgt')??360
       width: 300,
       height: 360,
+      alwaysOnTop: true,
+      transparent: true,
+      frame: false,
       webPreferences: {
         nodeIntegration: true,
         // 官网似乎说是默认false，但是这里必须设置contextIsolation
@@ -14,7 +17,8 @@ const createWindow = () => {
   
     }}
     )
-  
+    
+    win.setIgnoreMouseEvents(false); // 鼠标穿透
     win.loadFile('index.html')
     //打开开发者工具
    //win.openDevTools();

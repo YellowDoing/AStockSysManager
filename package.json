@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . app --win --out demoapp --arch=x64 --electron-version 17.1.2 --overwrite --ignore=node_modules"
   },
   "author": "hg",
   "license": "ISC",

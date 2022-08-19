@@ -1,6 +1,7 @@
 body { 
-    background: #333;
-     color: white; 
+    background: rgba(102,102,102,0.3);
+    color: white; 
+    -webkit-app-region: drag;
 }
 
 table{
